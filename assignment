@@ -1,0 +1,55 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+//A program to find the grading system
+
+    double score ;
+
+
+         cout<<"enter your exam score :"<<endl ;
+          cin>>score ;
+           if (score >=80){
+        cout<< "you got an A"<<endl;
+    }
+    else if( score >=75){
+        cout<< "you got a B+"<<endl;
+    }
+    else if( score >=70){
+        cout<< "you got a B"<<endl;
+    }
+     else if( score >=65){
+        cout<< "you got a c+"<<endl;
+    }
+     else if( score >=60){
+        cout<< "you got a c"<<endl;
+    }
+     else if( score >=55){
+        cout<< "you got a D+ "<<endl;
+    }
+     else if( score >=50){
+        cout<< "you got a D"<<endl;
+    }
+     else if( score >=45){
+        cout<< "you got a E"<<endl;
+    }
+     else if( score >0){
+        cout<< "you got a F"<<endl;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    return  0 ;
+
+
+}
